@@ -4,10 +4,138 @@
   <meta charset="utf-8" />
   <title>Get Safe Application | Love Life Now</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Glassmorphic Styling -->
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: url('img/img.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 16px;
+    }
+
+    h1, p {
+      text-align: center;
+      margin-bottom: 16px;
+      color: #000; /* black text */
+    }
+
+    #interaction-form-container {
+      width: 100%;
+      max-width: 720px;
+      background: rgba(255, 255, 255, 0.6); /* semi-transparent white for glass effect */
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      border-radius: 28px;
+      padding: 48px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.25), inset 0 0 10px rgba(255,255,255,0.2);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      color: #000; /* black text inside the card */
+    }
+
+    .interaction-form h3 {
+      margin-top: 32px;
+      margin-bottom: 16px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #000; /* black section headings */
+    }
+
+    .interaction-form .field {
+      margin-bottom: 18px;
+      width: 100%;
+    }
+
+    .interaction-form label {
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 6px;
+      color: #000; /* black labels */
+    }
+
+    .interaction-form input,
+    .interaction-form select,
+    .interaction-form textarea {
+      background: rgba(255, 255, 255, 0.85); /* almost opaque white for readability */
+      border: 1px solid rgba(0,0,0,0.2);
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      color: #000; /* black text inside inputs */
+      width: 100%;
+      outline: none;
+    }
+
+    .interaction-form input::placeholder,
+    .interaction-form textarea::placeholder {
+      color: rgba(0, 0, 0, 0.5); /* darker placeholder */
+    }
+
+    .interaction-form input:focus,
+    .interaction-form select:focus,
+    .interaction-form textarea:focus {
+      background: rgba(255, 255, 255, 0.95);
+      border-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .interaction-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .btn-submit-interaction {
+      width: 100%;
+      padding: 14px;
+      border-radius: 14px;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+      background: linear-gradient(135deg, #6dd5ed, #2193b0);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      margin-top: 24px;
+    }
+
+    .btn-submit-interaction:hover {
+      opacity: 0.95;
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+      #interaction-form-container {
+        padding: 32px 24px;
+      }
+      .interaction-form h3 {
+        font-size: 1.1rem;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      #interaction-form-container {
+        padding: 24px 16px;
+      }
+      .interaction-form h3 {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Get Safe Application</h1>
-  <p>Please complete the form below to apply for assistance.</p>
+  <div style="width:100%; display:flex; flex-direction:column; align-items:center;">
+    <h1>Get Safe Application</h1>
+    <p>Please complete the form below to apply for assistance.</p>
+
+    <!-- Form Container -->
+    <div id="interaction-form-container">
+      <!-- Bloomerang form script placeholder -->
 <script type="text/javascript" id="bloomerangForm748544"></script>
 <pre><script type="text/javascript">
     var insertForm748544 = function() {
@@ -909,6 +1037,7 @@
 
                 startBloomerangLoad();
 </script></pre>
-
+    </div>
+  </div>
 </body>
 </html>
