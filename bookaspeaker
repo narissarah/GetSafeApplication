@@ -457,14 +457,20 @@
 '<label for="CustomInteractionField_766977"><span class="label">Event Name</span><span class="required-star">*</span></label>' + 
 '<input id="CustomInteractionField_766977" name="CustomInteractionField_766977" class="required" type="text" maxlength="255"></input>' + 
 '</div>' + 
-'<div class="field date CustomInteractionField_769025 required" >' + 
-'<label for="CustomInteractionField_769025">Event Date<span class="required-star">*</span></label>' + 
-'<select id="CustomInteractionField_769025" name="CustomInteractionField_769025" class="required"><option value=""></option>' + 
+'<div class="field text CustomInteractionField_850945 required" >' + 
+'<label for="CustomInteractionField_850945">Event Date<span class="required-star">*</span></label>' + 
+'<select id="CustomInteractionField_850945" name="CustomInteractionField_850945" class="required"><option value=""></option>' + 
+'<option value="851969">Monday</option>' + 
+'<option value="852993">Wednesday</option>' + 
+'<option value="854017">Friday</option>' + 
+'<option value="855041">Saturday</option>' + 
 '</select>' + 
 '</div>' + 
-'<div class="field date CustomInteractionField_770049 required" >' + 
-'<label for="CustomInteractionField_770049">Event Time<span class="required-star">*</span></label>' + 
-'<select id="CustomInteractionField_770049" name="CustomInteractionField_770049" class="required"><option value=""></option>' + 
+'<div class="field text CustomInteractionField_836609 required" >' + 
+'<label for="CustomInteractionField_836609">Event Time<span class="required-star">*</span></label>' + 
+'<select id="CustomInteractionField_836609" name="CustomInteractionField_836609" class="required"><option value=""></option>' + 
+'<option value="837633">9:00 to 5:00pm range</option>' + 
+'<option value="838657">5:00pm to 7pm range</option>' + 
 '</select>' + 
 '</div>' + 
 '<div class="field text CustomInteractionField_787457 required" >' + 
@@ -479,10 +485,19 @@
 '<label for="CustomInteractionField_789505"><span class="label">Venue Room</span><span class="required-star">*</span></label>' + 
 '<input id="CustomInteractionField_789505" name="CustomInteractionField_789505" class="required" type="text" maxlength="255"></input>' + 
 '</div>' + 
-'<div class="field text CustomInteractionField_772097 required" >' + 
-'<label for="CustomInteractionField_772097">Expected Audience Age Range<span class="required-star">*</span></label>' + 
-'<select id="CustomInteractionField_772097" name="CustomInteractionField_772097" class="required"><option value=""></option>' + 
+'<div class="field text CustomInteractionField_839681 required" >' + 
+'<label for="CustomInteractionField_839681">Expected Audience Size<span class="required-star">*</span></label>' + 
+'<select id="CustomInteractionField_839681" name="CustomInteractionField_839681" class="required"><option value=""></option>' + 
+'<option value="840705">10 - 20</option>' + 
+'<option value="841729">21 - 50</option>' + 
+'<option value="842753">51 - 100</option>' + 
+'<option value="843777">101 - 200</option>' + 
+'<option value="844801">201+</option>' + 
 '</select>' + 
+'</div>' + 
+'<div class="field text CustomInteractionField_780289 required" >' + 
+'<label for="CustomInteractionField_780289"><span class="label">Length of Presentation</span><span class="required-star">*</span></label>' + 
+'<input id="CustomInteractionField_780289" name="CustomInteractionField_780289" class="required" type="text" maxlength="255"></input>' + 
 '</div>' + 
 '<div class="field text CustomInteractionField_774145 required" >' + 
 '<label for="CustomInteractionField_774145">Event’s Purpose (Fundraiser, Conference, Staff Education, Class)<span class="required-star">*</span></label>' + 
@@ -495,10 +510,6 @@
 '<div class="field text CustomInteractionField_779265" >' + 
 '<label for="CustomInteractionField_779265"><span class="label">Specific Topic Requested (if any)</span></label>' + 
 '<input id="CustomInteractionField_779265" name="CustomInteractionField_779265" type="text" maxlength="255"></input>' + 
-'</div>' + 
-'<div class="field text CustomInteractionField_780289 required" >' + 
-'<label for="CustomInteractionField_780289"><span class="label">Length of Presentation (in minutes)</span><span class="required-star">*</span></label>' + 
-'<input id="CustomInteractionField_780289" name="CustomInteractionField_780289" class="required" type="text" maxlength="255"></input>' + 
 '</div>' + 
 '<div class="field text CustomInteractionField_781313 required" >' + 
 '<label for="CustomInteractionField_781313">Will this be in-person or virtual?<span class="required-star">*</span></label>' + 
